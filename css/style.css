@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #132235
+}
+
+header .cabecalho__logo, .cabecalho__navegacao, .cabecalho__lista-item {
+    display: inline-block;
+}
+
+
+header .cabecalho__logo {
+    width: 18.25rem;
+}
+
+    .cabecalho__navegacao{
+        margin-bottom: 3px;
+    }
+    .cabecalho__lista-item{
+        font-size: 1.875rem;
+        margin-right: 3.125rem;
+        color: #6FDAD3;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
