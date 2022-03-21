@@ -1,27 +1,78 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Home - F4Forlive </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
-    <script src='main.js'></script>
-</head>
-<body>
+<html lang="us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Home - F4Forlive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+  </head>
+  <body>
     <header>
-        <h1 class='cabecalho__logo'><img class="cabecalho__logo" src="./imagens/f4life.png"></h1> 
-        <nav class="cabecalho__navegacao">
-            <a href="#" class="cabecalho__lista-item">Quem Somos</a>
-            <a href="#" class="cabecalho__lista-item">Fale Conosco</a>
-        </nav>
+      <h1 class="cabecalho__logo">
+        <img class="cabecalho__logo" src="./imagens/f4life.png" />
+      </h1>
+      <nav class="cabecalho__navegacao">
+        <a href="#" class="cabecalho__lista-item">Quem Somos</a>
+        <a href="#" class="cabecalho__lista-item">Fale Conosco</a>
+      </nav>
     </header>
     <main>
-
+      <section id="quemSomos">
+        <h2 class="quemSomos__titulo">Quem Somos</h2>
+        <p class="quemSomos__desc">
+          F4Life é uma empresa de aluguéis de repúblicas para pessoas
+          universitárias.
+        </p>
+        <p class="principal__sobre-desc">
+          Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas
+          e prepara moradias para recepção de pessoas universitárias em um
+          ambiente específico e otimizado para a vida de graduação.
+        </p>
+      </section>
+      <section id="faleConosco">
+        <h2 class="falaConoso__titulo">Fale Conosco</h2>
+        <div class="container__form">
+          <form id="formulario">
+            <fieldset>
+              <legend for="form__email-input" class="form__email-label">
+                E-mail
+              </legend>
+              <input
+                type="email"
+                name="email"
+                placeholder="usuario@dominio.com"
+                class="form__email-input"
+              />
+            </fieldset>
+            <fieldset class="form__mensagem">
+              <legend for="form__mensagem-input" class="form__mensagem-label">
+                Mensagem
+              </legend>
+              <textarea
+                type="text"
+                placeholder="digite sua mensagem"
+                name="mensagem"
+                class="form__mensagem-input"
+              /></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar Mensagem" class="form__enviar">
+          </form>
+        </div>
+      </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
