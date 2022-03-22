@@ -1,93 +1,138 @@
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #132235;
-  }
-  
-  header .cabecalho__logo,
-  .cabecalho__navegacao,
-  .cabecalho__lista-item {
-    display: inline-block;
-  }
-  
-  header .cabecalho__logo {
-    width: 18.25rem;
-  }
-  
-  .cabecalho__navegacao {
-    margin-top: 2rem;
-  }
-  .cabecalho__lista-item {
-    font-size: 1.875rem;
-    margin-right: 3.125rem;
-    color: #6fdad3;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  #quemSomos {
-    padding: 0.0625rem 1.875rem;
-  }
-  
-  .quemSomos__titulo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #132235;
-    margin: 2rem 0;
-  }
-  
-  #quemSomos p {
-    margin-bottom: 2.5rem;
-    font-size: 1.5rem;
-  }
-  
-  #faleConosco {
-    background-color: #132235;
-    padding: 3rem 1.875rem;
-  }
-  
-  section .falaConoso__titulo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #6fdad3;
-    padding-bottom: 3rem;
-  }
-  .container__form {
-    width: fit-content;
-    margin: 0 auto;
-    border: 1px solid white;
-    padding: 1rem;
-    border-radius: 10px;
-  }
-  
-  .form__email-label,
-  .form__mensagem-label {
-    font-size: 1.5rem;
-    color: #6fdad3;
-    padding: 0.3rem 0;
-  }
-  
-  .form__email-input {
-    width: 20rem;
-    height: 2rem;
-    padding: 0 0.5rem;
-    border-radius: 5px;
-  }
-  
-  .form__mensagem-input {
-    width: 20rem;
-    height: 6rem;
-    padding: 1rem 0.5rem;
-    border-radius: 5px;
-  }
-  
-  .form__enviar {
-    background-color: #132235;
-    color: #6fdad3;
-    border: 1px solid #6fdad3;
-    height: 6vh;
-    border-radius: 5px;
-    margin-top: 1rem;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #132235;
+}
+
+header .cabecalho__logo,
+.cabecalho__navegacao,
+.cabecalho__lista-item {
+  display: inline-block;
+}
+
+header .cabecalho__logo {
+  width: 18.25rem;
+}
+
+.cabecalho__navegacao {
+  margin-top: 2rem;
+}
+.cabecalho__lista-item {
+  font-size: 1.875rem;
+  margin-right: 3.125rem;
+  color: #6fdad3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cabecalho__lista-item:hover {
+  transition: 0.5s all;
+  transform: scale(1.2);
+}
+
+#quemSomos {
+  padding: 0.0625rem 1.875rem;
+  background-color: #c2dcdf;
+}
+
+.quemSomos__titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #132235;
+  margin: 2rem 0;
+}
+
+.quemSomos__desc {
+  width: 70%;
+}
+
+#quemSomos p {
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+#faleConosco {
+  background-color: #132235;
+  padding: 3rem 1.875rem;
+}
+
+section .falaConoso__titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6fdad3;
+  padding-bottom: 3rem;
+}
+.container__form {
+  width: fit-content;
+  margin: 0 auto;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.form__email-label,
+.form__mensagem-label {
+  font-size: 1.5rem;
+  color: #6fdad3;
+  padding: 0.3rem 0;
+}
+
+.form__email-input {
+  width: 20rem;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+}
+
+.form__mensagem-input {
+  width: 20rem;
+  height: 6rem;
+  padding: 1rem 0.5rem;
+  border-radius: 5px;
+}
+
+.form__enviar {
+  background-color: #132235;
+  color: #6fdad3;
+  border: 1px solid #6fdad3;
+  height: 6vh;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.form__enviar:hover {
+  transition: 0.5s all;
+  transform: scale(1.1);
+}
+
+.mensagemUsuario {
+  display: grid;
+  justify-content: center;
+  color: white;
+  padding-top: 1rem;
+}
+
+footer {
+  height: 7rem;
+}
+
+#redesSociais {
+  background-color: #bbe9ee;
+}
+
+footer .rodape__redes {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icone:hover {
+  transition: 0.5s all;
+  transform: scale(1.5);
+}

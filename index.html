@@ -24,22 +24,28 @@
         <img class="cabecalho__logo" src="./imagens/f4life.png" />
       </h1>
       <nav class="cabecalho__navegacao">
-        <a href="#" class="cabecalho__lista-item">Quem Somos</a>
-        <a href="#" class="cabecalho__lista-item">Fale Conosco</a>
+        <a href="#quemSomos" class="cabecalho__lista-item">Quem Somos</a>
+        <a href="#faleConosco" class="cabecalho__lista-item">Fale Conosco</a>
+        <a href="#redesSociais" class="cabecalho__lista-item">Redes Sociais</a>
       </nav>
     </header>
     <main>
       <section id="quemSomos">
         <h2 class="quemSomos__titulo">Quem Somos</h2>
-        <p class="quemSomos__desc">
-          F4Life é uma empresa de aluguéis de repúblicas para pessoas
-          universitárias.
-        </p>
-        <p class="principal__sobre-desc">
-          Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas
-          e prepara moradias para recepção de pessoas universitárias em um
-          ambiente específico e otimizado para a vida de graduação.
-        </p>
+        <div class="quemSomos__desc">
+          <p class="quemSomos__desc">
+            F4Life é uma empresa de aluguéis de repúblicas para pessoas universitárias.
+          </p>
+          <p class="principal__sobre-desc">
+            Similar aos modelos de Quinto Andar e Loft, a empresa realiza reformas
+            e prepara moradias para recepção de pessoas universitárias em um
+            ambiente específico e otimizado para a vida de graduação.
+          </p>
+          <p class="principal__sobre-desc">Quer compartilhar moradia com a galera numa bela república?
+            Ou prefere algo mais reservado, que cabe no bolso, como uma kitnet?
+            Seja qual for sua preferência, nós vamos encontrar e preparar o imóvel que você escolher!
+          </p>
+        </div>
       </section>
       <section id="faleConosco">
         <h2 class="falaConoso__titulo">Fale Conosco</h2>
@@ -70,9 +76,18 @@
             <input type="submit" value="Enviar Mensagem" class="form__enviar">
           </form>
         </div>
+        <p class="mensagemUsuario"></p>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section id="redesSociais">
+        <div class="rodape__redes">
+          <a href="https://twitter.com/" target="_blank"><img class="icone" src="./imagens/twitter.svg" alt="twitter"></a>
+          <a href="https://www.linkedin.com/home" target="_blank"><img class="icone" src="./imagens/linkedin.svg" alt="twitter"></a>
+          <a href="https://pt-br.facebook.com/" target="_blank"><img class="icone" src="./imagens/facebook.svg" alt="twitter"></a>
+        </div>
+      </section>
+    </footer>
     <script src="./js/script.js"></script>
   </body>
 </html>
